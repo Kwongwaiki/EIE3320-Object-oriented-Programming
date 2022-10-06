@@ -9,6 +9,7 @@ public class ShapeTester {
   public static void main(String[] args) {
     // Create a Scanner object
     String choice;
+    Shape ShapeObject = null;
     menu:
     while (true)
     {
@@ -27,7 +28,6 @@ public class ShapeTester {
         System.out.println("Invalid command!\n");
         continue menu;
       }
-      Shape ShapeObject = null;
       switch (choice.charAt(0))
       {
         case 'c':
