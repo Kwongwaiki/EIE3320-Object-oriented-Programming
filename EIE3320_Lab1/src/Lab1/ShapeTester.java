@@ -1,6 +1,6 @@
 //EIE3320 Lab 1
 //Kwong Wai Ki 19030979D
-//Wong Keith 19063076D
+//Wong Keith 19067393D
 //Visual Studio Code
 
 package Lab1;
@@ -14,6 +14,7 @@ public class ShapeTester {
     while (true)
     {
       Scanner input = new Scanner(System.in);
+      System.out.println();
       System.out.println("**************************************");
       System.out.printf("%-37s*\n","* Please choose one the followings:");
       System.out.printf("%-37s*\n","* Press 'c' - Circle");

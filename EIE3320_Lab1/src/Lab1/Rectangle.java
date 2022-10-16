@@ -1,6 +1,6 @@
 //EIE3320 Lab 1
 //Kwong Wai Ki 19030979D
-//Wong Keith 19063076D
+//Wong Keith 19067393D
 //Visual Studio Code
 
 package Lab1;
@@ -34,7 +34,7 @@ public class Rectangle extends Shape implements Drawable{
   public void displayShape()
   {
     System.out.println("Area of rectangle = " + area);
-    System.out.println("Perimeter of rectangle = " + perimeter + "\n");
+    System.out.println("Perimeter of rectangle = " + perimeter);
   }
   public void draw()
   {
